@@ -61,7 +61,7 @@ formSubmit.addEventListener("submit", function () {
 
 	if (errors.length == 0) {
 		saveLocalStorage(userData);
-		window.location = "login.html";
+		window.location = "index.html";
 	} else {
 		const ulErrors = document.createElement("ul");
 		ulErrors.textContent = "";
