@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="register.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/icon_tree_2.svg"
+    />
+    <title>Register</title>
+  </head>
+  <body class="background">
+    <span id="spanError"> </span>
+    <div class="container">
+      <form name="fromRegister" class="align-from">
+        <img
+          class="img-logo"
+          src="img/2974388_allergens_beans_lupin_lupin seed_nature_icon.svg"
+        />
+        <div
+          id="div-name-last-name"
+          style="width: 100%; margin: auto; text-align: center"
+        >
+          <label
+            class="label"
+            style="width: 190px; display: inline-block; margin-right: 1rem"
+            >Name</label
+          >
+          <label class="label" style="width: 190px; display: inline-block"
+            >Last Name</label
+          >
+          <input
+            name="name"
+            class="input"
+            style="width: 190px; display: inline-block; margin-right: 1rem"
+            placeholder="Enter your first name"
+          />
+          <input
+            name="lastName"
+            class="input"
+            style="width: 190px; display: inline-block"
+            placeholder="Type your last name"
+          />
+        </div>
+        <label class="label" style="width: 22rem; margin-top: 1rem"
+          >Email</label
+        >
+        <input
+          name="email"
+          type="email"
+          class="input"
+          style="width: 25rem"
+          placeholder="Type your Email"
+        />
+        <label name="login" class="label" style="width: 22rem; margin-top: 1rem"
+          >Login</label
+        >
+        <input
+          name="login"
+          type="text"
+          class="input"
+          style="width: 25rem"
+          placeholder="Enter a login"
+        />
+        <div
+          id="div-name-last-name"
+          style="
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            padding-top: 1rem;
+          "
+        >
+          <label
+            name="password"
+            class="label"
+            style="width: 190px; display: inline-block; margin-right: 1rem"
+            >Password</label
+          >
+          <label
+            name="confirmPassword"
+            class="label"
+            style="width: 190px; display: inline-block"
+            >Confirm Password</label
+          >
+          <input
+            type="password"
+            name="password"
+            class="input"
+            style="width: 190px; display: inline-block; margin-right: 1rem"
+            placeholder="Enter a password"
+          />
+          <input
+            type="password"
+            name="confirmPassword"
+            class="input"
+            style="width: 190px; display: inline-block"
+            placeholder="Confirm the Password"
+          />
+        </div>
+        <button id="submit" type="submit" class="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+  <script src="register.js">
+  </script>
+</html>

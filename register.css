@@ -1,0 +1,120 @@
+.background {
+  background-image: url(img/background.jpeg);
+  height: 96vh;
+  width: 96vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.error-msg { 
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  width: 102.86%;
+  font-family: Roboto;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.377);
+}
+
+.li-error {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.84);
+  width: 450px;
+  height: 500px;
+  display: flex;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.align-from {
+  margin: 20px auto 0px auto
+}
+
+.img-logo {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin: auto;
+  vertical-align: top;
+}
+
+.label {
+  transition: 0.5s;
+  margin: auto;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Roboto;
+  width: 300px;
+  height: 22.22px;
+  margin-top: 5px;
+  display: block;
+  text-align: center;
+}
+
+.input {
+  transition: 15s;
+  margin: auto;
+  color: white;
+  box-sizing: border-box;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Roboto;
+  display: block;
+  background-color: #032d50;
+  border-radius: 15px;
+  width: 240px;
+  height: 44.44px;
+  border: none;
+  -webkit-box-shadow: none;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: none;
+  outline: none;
+}
+
+.submit {
+  color: white;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background-color: #008bff;
+  margin: auto;
+  margin-top: 33.33px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: Roboto;
+  font-size: 12px;
+  width: 160px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.register {
+  color: blue;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+  margin: auto;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  font-weight: bold;
+  font-family: Roboto;
+  
+  width: 160px;
+  height: 20px;
+  border: none;
+  /* border-radius: 15px; */
+  font-size: 13px;
+}

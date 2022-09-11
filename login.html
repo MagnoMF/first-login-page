@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/icon_tree_2.svg"
+    />
+    <title>Login</title>
+  </head>
+  <body class="background">
+    <span id="spanError"></span>
+    <div class="container">
+      <form id="form-login" class="align-from">
+        <img class="img-logo" src="img/icon_tree_1.svg" />
+        <label class="label" name="login">Login</label>
+        <input
+          type="text"
+          id="login"
+          class="input"
+          name="login"
+          placeholder="Digite seu login"
+        />
+        <label class="label" name="password">Password</label>
+        <input
+          type="password"
+          id="passowrd"
+          class="input"
+          name="password"
+          placeholder="Digite sua senha"
+        />
+        <button id="send" type="submit" class="submit">Enviar</button>
+        <button id="register" type="button" class="register">
+          Clique aqui e cadastre-se
+        </button>
+      </form>
+    </div>
+  </body>
+  <script src="./login.js"></script>
+</html>
