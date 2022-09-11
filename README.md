@@ -1,2 +1,2 @@
 # First Login Page
-A simple login paga
+A simple login page
