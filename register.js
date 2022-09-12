@@ -19,7 +19,7 @@ function validate(name, lastName, email, login, password, confirmPassword) {
 	}
 	if (email == "") {
 		errors.push("É necessário preencher o e-mail");
-	} else if (email.search(/(@)[a-z]+(.com$)/) == -1) {
+	} else if (email.search(/(@)[a-z]+(.com$|.com.br$)/) == -1) {
 		errors.push("E-mail inválido");
 	}
 	if (login == "") {
